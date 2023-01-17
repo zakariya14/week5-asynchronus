@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.web-portal {
+  font-weight: bold;
+  color: #023a6b;
+  transition: 0.2s;
+}
+
+.web-portal:hover {
+  cursor: pointer;
+  color: salmon;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 3px;
+  font-size: 17px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #51a3eb, #61ecec, #3ff5af);
+}
+
+.a-footer {
+  text-decoration: none;
+}
+
+span {
+  color: salmon;
+  font-weight: bold;
+}
